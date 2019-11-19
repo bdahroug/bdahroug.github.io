@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>DAHROUG</title>
+<title>Projects</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -88,18 +88,155 @@
 
 
     <!-- Slider Start -->
-<section id="slider">
+<section id="projects-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>Nature is our best teacher,</h1>
+                    <h1>and we are still learning and discovering ...</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="intro">
+  <div class="container">
+
+      <h1>Research interests:</h1>
+      Medical micro-robotics, Mechatronics, Robot control, Path following, Constrained motion, Visual servoing
+       
+      <br>
+
+      <h1>Research projects:</h1>
+      <ul style="list-style-type:circle;">
+        <li><a href="#intro">ROBOT</a> (INSERM funding, 2017-2021): robotic demonstrator to cancer diagnosis in the digestive tract based on the optical coherence tomography;</li>
+        <li><a href="#intro">Micro-robotic System for Middle Ear Surgery</a> (UBFC funding, 2014-2017): early research stage for proposing a micro-robotic system dedicated to cholesteatoma surgery;</li>
+        <li><a href="#intro">Smart Blocks</a> (ANR funding, 2011-2015): modular and reconfigurable surface composed of MEMS for the rapid transport of small and fragile object.</li>
+      </ul> 
+
+  </div>
+</section>
+
+<!-- Wrapper Start -->
+<section id="projectRobot">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>ROBOT</h1>
+                    <h2>Robotics and Optical coherence tomography for optical BiOpsy in the digestive Tract</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="intro">
   <div class="container">
     <div class="row">
-      <div class="col-md-10 col-md-offset-2">
+      <div class="col-md-7 col-sm-12">
         <div class="block">
-          <h1 class="animated fadeInUp">Bassem DAHROUG</h1>
-          <p class="animated fadeInUp">Mechatronics research engineer</p>
-          <!--<h1 class="animated fadeInUp">Mechatronics research engineer</h1>
-          <p class="animated fadeInUp">Passionate about mechatronic systems, with solid knowledge and know-how in the fields of robotics, automation, programming, mechanics and electronics.</p> -->
+          <div class="section-title">
+            <p>This project proposes a disruptive approach to cancer diagnosis in the digestive tract. It deals with fundamental research, yet it is
+              deeply inspired by the clinical needs and it mixes mathematics (compressed sensing, robot control), physics (optics) and
+              engineering (optical MEMS, robotic endoscope, flexible continuous robot).</p>
+          </div>
+          <p>
+            My work concerns the visual servoing of the robot (intracorporeal navigation) based on the 3D imaging obtained by the OCT (Optical Coherence Tomography).
+            <br>
+            In the literature, the medical imaging (such as ultrasound, MRI, confocal microscope, etc.) is used to synthesize different control laws which allow surgical tasks to be performed (e.g., biopsy, ablation, etc.). 
+            However, the OCT is not a comman sensor in the visual servo loop despite its very interesting characteristics (e.g., real-time acquisition, 3D images, high resolution, etc.). 
+            Indeed, there are some works based on the use of wavelet coefficients of OCT images (B-scan) in the control loop, but these works are limited to controlling only 3-DoF (Degrees Of Freedom) of the robot.
+            <br>
+            My postdoctoral research aims to develop control methods, going beyond the state of the art, by allowing the 6-DoF of the robot to be controlled using the volume (C-scan) obtained by the OCT as the control law input signal  <a class="citation" href="#dahroug2020a">[1]</a>.
+          </p>
+          <p>
+            <!--
+            The main objectives of these control laws are:
+            <ul style="list-style-type:circle;">
+              <li>control the progress of the distal part of the robot;</li>
+              <li>accurately scan a region of interest to create a panoramic OCT image (2D + depth) representing the entire suspected tissue;</li>
+              <li>maintain the OCT probe in a very stable position by compensating for external disturbances (physiological movements).</li>
+            </ul> 
+            -->
+          </p>
         </div>
-      </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="/img/projects/sequenceOCT.png" alt="sequence of the OCT images">
+        </div>
+      </div><!-- .col-md-5 close -->
     </div>
+
+    <h5>References</h5>
+    <ul class="bibliography"><li><!--
+<div class="text-justify">
+  <span id="dahroug2020a">[1]B. Dahroug, B. Tamadazte, and N. Andreff, “PCA-based Visual Servoing using Optical Coherence Tomography,” <i>RAL</i>, vol. under review. </span>
+</div>
+
+
+
+<div>
+  
+  
+</div>
+<div>
+  
+</div>
+
+<div><pre>@article{dahroug2020a,
+  title = {PCA-based Visual Servoing using Optical Coherence Tomography},
+  author = {Dahroug, Bassem and Tamadazte, Brahim and Andreff, Nicolas},
+  journal = {RAL},
+  volume = {under review},
+  group = {journal}
+}
+</pre></div>
+
+-->
+
+
+
+<div class="text-justify"><span id="dahroug2020a">[1]B. Dahroug, B. Tamadazte, and N. Andreff, “PCA-based Visual Servoing using Optical Coherence Tomography,” <i>RAL</i>, vol. under review. </span></div>
+
+<button class="myButton1"  onclick="toggleBibtexdahroug2020a()">Bibtex</button>
+
+
+
+
+ 
+
+ 
+
+
+
+<div id="adahroug2020a" style="display: none;">
+  <pre>@article{dahroug2020a,
+  title = {PCA-based Visual Servoing using Optical Coherence Tomography},
+  author = {Dahroug, Bassem and Tamadazte, Brahim and Andreff, Nicolas},
+  journal = {RAL},
+  volume = {under review},
+  group = {journal}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexdahroug2020a(parameter) {
+    var x= document.getElementById('adahroug2020a');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+</li></ul>
+
   </div>
 </section>
 
