@@ -907,6 +907,50 @@ footer .footer-manu ul li a:hover {
 }
 
 
+#projectUROCS {
+  background: url("../img/projects/UnderConstruction.png");
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+  background-attachment: fixed;
+}
+#projectUROCS:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.8;
+}
+#projectUROCS .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 90px;
+  text-align: left;
+}
+#projectUROCS .block h1 {
+  font-weight: 100;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#projectUROCS .block h2 {
+  font-weight: 100;
+  font-size: 30px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: italic;
+}
+
+
 
 /*---------------------------------------------
 					publications
