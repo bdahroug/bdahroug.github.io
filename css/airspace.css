@@ -100,7 +100,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider {
   /*background: url("../img/slider-bg.jpg") no-repeat;*/
   background: url("../img/drawing_index.gif") no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
@@ -819,11 +819,19 @@ footer .footer-manu ul li a:hover {
 /*--
 	Slider-work Start
 --*/
-#projects-header {
+/*#projects-header {
   background: url("../img/lesEcrains.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 157px;
+  position: relative;
+  background-attachment: fixed;
+}*/
+#projects-header {
+  background: url("../img/lesEcrains.jpg") no-repeat;
+  background-size: contain;
+  padding-top: 20vh;
+  padding-bottom: 20rem;
   position: relative;
   background-attachment: fixed;
 }
@@ -861,13 +869,14 @@ footer .footer-manu ul li a:hover {
 }
 
 
-
-
 #projectRobot {
   background: url("../img/projects/robot.png");
-  background-size: cover;
+  /*background-size: cover;
   padding-top: 150px;
-  padding-bottom: 107px;
+  padding-bottom: 107px;*/
+  background-size: 100% 100%;
+  padding-top: 15vh;
+  padding-bottom: 10rem;
   position: relative;
   background-attachment: fixed;
 }
@@ -909,9 +918,9 @@ footer .footer-manu ul li a:hover {
 
 #projectUROCS {
   background: url("../img/projects/UnderConstruction.png");
-  background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
+  background-size: contain;
+  padding-top: 25vh;
+  padding-bottom: 25rem;
   position: relative;
   background-attachment: fixed;
 }
