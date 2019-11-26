@@ -100,7 +100,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider {
   /*background: url("../img/slider-bg.jpg") no-repeat;*/
   background: url("../img/drawing_index.gif") no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
   background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
@@ -829,9 +829,9 @@ footer .footer-manu ul li a:hover {
 }*/
 #projects-header {
   background: url("../img/lesEcrains.jpg") no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
   padding-top: 20vh;
-  padding-bottom: 20rem;
+  padding-bottom: 40rem;
   position: relative;
   background-attachment: fixed;
 }
