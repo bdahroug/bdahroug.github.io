@@ -380,6 +380,13 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 
+#associates-logo-section {
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+#associates-logo-section .associates-logo-img {
+  padding: 0px 50px;
+}
 
 
 /*---------------------------------------------
@@ -860,7 +867,7 @@ footer .footer-manu ul li a:hover {
   background: url("../img/lesEcrains.jpg") no-repeat;
   background-size: 100% 100%;
   padding-top: 20vh;
-  padding-bottom: 40rem;
+  padding-bottom: 40em;
   position: relative;
   background-attachment: fixed;
 }
