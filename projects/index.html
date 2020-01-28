@@ -166,7 +166,7 @@
                     <p>
                         My postdoctoral work during this project was divided into two main objectives:
                         <ul style="list-style-type:circle;">
-                            <li>the first one concerns the exploitation of OCT (Optical Coherence Tomography) signal directly in the control loop for achieving ultra high accuracy image-based guidance of the robot;</li>
+                            <li>the first one concerns the exploitation of OCT (Optical Coherence Tomography) signal directly in the control loop for accurately guiding the robot;</li>
                             <li>the second one involves the design and implementation of a prototype which integrates the software and hardware of all the mathematical, physics and engineering results done by the others teams into a single demonstrator.</li>
                         </ul> 
                     </p>
@@ -184,9 +184,9 @@
             <div class="col-md-12">
                 <div class="block">
                     <p>
-                        The first year of postdoctoral was dedicated to implement a visual servoing scheme based on the 3D imaging (C-scan) obtained from the OCT for guiding a robot during the intra-operative phase in order to perform a repeatable optical biopsy.
+                        The first year of postdoctoral was dedicated to implementing a visual servoing scheme based on the 3D imaging (C-scan) obtained from the OCT for guiding a robot during the intra-operative phase in order to perform a repeatable optical biopsy.
                         <br>
-                        In the literature, the medical imaging (such as ultrasound, MRI, confocal microscope, etc.) is used to synthesize different control laws which allow surgical tasks to be performed (e.g., biopsy, ablation, etc.). 
+                        In the literature, the medical imaging (such as ultrasound, MRI, confocal microscopy, etc.) is used to synthesize different control laws which allow surgical tasks to be performed (e.g., biopsy, ablation, etc.). 
                         However, the OCT is not a common sensor in the visual servo loop despite its very interesting characteristics (e.g., real-time acquisition, 3D images, high resolution, etc.). 
                         Indeed, there are some works based on the usage of the wavelet transformation of the 2D OCT images (B-scan) in the control loop, but these works are limited to controlling only 3-DoF (Degrees Of Freedom) of the robot.
                         <br>
@@ -239,6 +239,7 @@
   journal = {IEEE Robotics and automation letters (RA-L)},
   volume = {under publication},
   group = {journal},
+  preprint = {https://www.researchgate.net/publication/338449185_PCA-based_Visual_Servoing_using_Optical_Coherence_Tomography},
   video = {media/videoRAL2020_final.mp4}
 }
 </pre></div>
@@ -253,6 +254,10 @@
 
 
 
+
+    <a href="https://www.researchgate.net/publication/338449185_PCA-based_Visual_Servoing_using_Optical_Coherence_Tomography" target="_blank">
+        <input class="myButton" type="button" value="preprint" />
+    </a>
 
  
 
@@ -279,6 +284,7 @@
   journal = {IEEE Robotics and automation letters (RA-L)},
   volume = {under publication},
   group = {journal},
+  preprint = {https://www.researchgate.net/publication/338449185_PCA-based_Visual_Servoing_using_Optical_Coherence_Tomography},
   video = {media/videoRAL2020_final.mp4}
 }
 </pre>
@@ -684,14 +690,17 @@
             <div class="col-md-7 col-sm-12">
                 <div class="block">
                     <div class="section-title">
-                        <p>This project proposes a novel approach to cholesteatoma surgery. </p>
+                        <p>This project proposes a novel approach to cholesteatoma surgery. 
+                            It investigated a mechatronics solution to satisfy clinical needs for eliminating the residual and recurrent cholesteatoma. 
+                            It combining robotics, automatic control and mechatronics design to reach the tiny space of the middle ear cavity and perform a complex surgical task.</p>
                     </div>
 
                     <p>
+                        I participated in this project as a research assistant (PhD student).
                         This thesis was financed by a ministerial scholarship, based on a Franco-Swiss collaboration, which was obtained following a competitive call for projects within the UBFC. 
                         This collaboration between CHU Besançon, ARTORG center (Swiss collaborator) and FEMTO-ST had the objective to develop a micro-robotic system dedicated to cholesteatoma surgery (lesion cells that attack the middle ear). 
                         This pathology can potentially lead to serious complications (e.g., deafness or facial paralysis) in the absence of treatment. 
-                        The objective of this robotic system is to improve the surgeon's performance during the operation, reduce the recovery time of the patient following the procedure, and to avoid future interventions in case of residual cells.
+                        The objective of this robotic system is to i) improve the surgeon's performance during the operation, ii) reduce the recovery time of the patient following the procedure, and iii) avoid future interventions in case of residual cells.
                     </p>
                 </div>
             </div><!-- .col-md-7 close -->
@@ -710,10 +719,10 @@
                         The thesis work is mainly divided into two parts:
                         <ul style="list-style-type:circle;">
                             <li>The first part is devoted to the analysis of the clinical need for such a surgical intervention by defining the necessary specifications for the implementation of an efficient and safe micro-robotic system that contributes to better cholesteatoma surgery   <a class="citation" href="#dahroug2018a">[1]</a>.</li>
-                            <li>The second part concerns the development of an image-guided micro-robotic system. The main contributions of this part are :
+                            <li>The second part concerns the development of an image-guided micro-robotic system <a class="citation" href="#dahroug2018_pdhThesis">[2]</a>. The main contributions of this part are :
                                 <ul style="list-style-type:disc;">
-                                    <li>modeling the movement of a rigid surgical tool (straight <a class="citation" href="#dahroug2016a">[2]</a> or curved <a class="citation" href="#dahroug2019a">[3]</a>) according to the anatomical context of the middle ear;</li>
-                                    <li>synthesis of the control laws so that the robot can follow a resection/ablation path <a class="citation" href="#dahroug2018b">[4], [5]</a> predefined by the surgeon while respecting the given anatomical constraints <a class="citation" href="#dahroug2018c">[6], [7]</a> (insertion point, presence of anatomical structure to be avoided, etc.);</li>
+                                    <li>modeling the movement of a rigid surgical tool (straight <a class="citation" href="#dahroug2016a">[3]</a> or curved <a class="citation" href="#dahroug2019a">[4]</a>) according to the anatomical context of the middle ear;</li>
+                                    <li>synthesis of the control laws so that the robot can follow a resection/ablation path <a class="citation" href="#dahroug2018b">[5], [6]</a> predefined by the surgeon while respecting the given anatomical constraints <a class="citation" href="#dahroug2018c">[7], [8]</a> (insertion point, presence of anatomical structure to be avoided, etc.);</li>
                                     <li>implementation of a simulator to ensure the correct operation of the proposed controllers (see Fig. 1) ;
                                         <ul style="list-style-type:square;">
                                             <li>the controller is a C++ software (server) which communicates with a client (either simulator or real robot) using the TCP/IP protocol;</li>
@@ -870,7 +879,79 @@
 </li>
 <li><!--
 <div class="text-justify">
-  <span id="dahroug2016a">[2]B. Dahroug, B. Tamadazte, and N. Andreff, “3D Path Following with Remote Center of Motion Constraints,” in <i>International Conference on Informatics in Control, Automation and Robotics (ICINCO)</i>, Lisbon, Portugal, 2016, vol. 1, pp. 84–91. </span>
+  <span id="dahroug2018_pdhThesis">[2]B. Dahroug, “Micro-Robotic Cholesteatoma Surgery: clinical requirements analysis and image-based control under constraints,” PhD thesis, Bourgogne Franche-Comté, 2018. </span>
+</div>
+
+
+
+<div>
+  
+  
+</div>
+<div>
+  
+</div>
+
+<div><pre>@phdthesis{dahroug2018_pdhThesis,
+  title = {Micro-Robotic Cholesteatoma Surgery: clinical requirements analysis and image-based control under constraints},
+  author = {Dahroug, Bassem},
+  year = {2018},
+  school = {Bourgogne Franche-Comt{\'e}},
+  link = {https://tel.archives-ouvertes.fr/tel-01862715/file/these_A_DAHROUG_Bassem_2018.pdf}
+}
+</pre></div>
+
+-->
+
+
+
+<div class="text-justify"><span id="dahroug2018_pdhThesis">[2]B. Dahroug, “Micro-Robotic Cholesteatoma Surgery: clinical requirements analysis and image-based control under constraints,” PhD thesis, Bourgogne Franche-Comté, 2018. </span></div>
+
+<button class="myButton1"  onclick="toggleBibtexdahroug2018_pdhThesis()">Bibtex</button>
+
+
+
+
+ 
+
+    <a href="https://tel.archives-ouvertes.fr/tel-01862715/file/these_A_DAHROUG_Bassem_2018.pdf" target="_blank">
+        <input class="myButton3" type="button" value="PDF link2" />
+    </a>
+
+ 
+
+ 
+
+
+
+<div id="adahroug2018_pdhThesis" style="display: none;">
+  <pre>@phdthesis{dahroug2018_pdhThesis,
+  title = {Micro-Robotic Cholesteatoma Surgery: clinical requirements analysis and image-based control under constraints},
+  author = {Dahroug, Bassem},
+  year = {2018},
+  school = {Bourgogne Franche-Comt{\'e}},
+  link = {https://tel.archives-ouvertes.fr/tel-01862715/file/these_A_DAHROUG_Bassem_2018.pdf}
+}
+</pre>
+</div>
+
+
+<script>
+    function toggleBibtexdahroug2018_pdhThesis(parameter) {
+        var x= document.getElementById('adahroug2018_pdhThesis');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+
+</script>
+
+</li>
+<li><!--
+<div class="text-justify">
+  <span id="dahroug2016a">[3]B. Dahroug, B. Tamadazte, and N. Andreff, “3D Path Following with Remote Center of Motion Constraints,” in <i>International Conference on Informatics in Control, Automation and Robotics (ICINCO)</i>, Lisbon, Portugal, 2016, vol. 1, pp. 84–91. </span>
 </div>
 
 
@@ -905,7 +986,7 @@
 
 
 
-<div class="text-justify"><span id="dahroug2016a">[2]B. Dahroug, B. Tamadazte, and N. Andreff, “3D Path Following with Remote Center of Motion Constraints,” in <i>International Conference on Informatics in Control, Automation and Robotics (ICINCO)</i>, Lisbon, Portugal, 2016, vol. 1, pp. 84–91. </span></div>
+<div class="text-justify"><span id="dahroug2016a">[3]B. Dahroug, B. Tamadazte, and N. Andreff, “3D Path Following with Remote Center of Motion Constraints,” in <i>International Conference on Informatics in Control, Automation and Robotics (ICINCO)</i>, Lisbon, Portugal, 2016, vol. 1, pp. 84–91. </span></div>
 
 <button class="myButton1"  onclick="toggleBibtexdahroug2016a()">Bibtex</button>
 
@@ -966,7 +1047,7 @@
 </li>
 <li><!--
 <div class="text-justify">
-  <span id="dahroug2019a">[3]B. Dahroug, B. Tamadazte, and N. Andreff, “Unilaterally Constrained Motion of A Curved Surgical Tool,” <i>Robotica</i>, vol. under publication. </span>
+  <span id="dahroug2019a">[4]B. Dahroug, B. Tamadazte, and N. Andreff, “Unilaterally Constrained Motion of A Curved Surgical Tool,” <i>Robotica</i>, vol. under publication. </span>
 </div>
 
 
@@ -993,7 +1074,7 @@
 
 
 
-<div class="text-justify"><span id="dahroug2019a">[3]B. Dahroug, B. Tamadazte, and N. Andreff, “Unilaterally Constrained Motion of A Curved Surgical Tool,” <i>Robotica</i>, vol. under publication. </span></div>
+<div class="text-justify"><span id="dahroug2019a">[4]B. Dahroug, B. Tamadazte, and N. Andreff, “Unilaterally Constrained Motion of A Curved Surgical Tool,” <i>Robotica</i>, vol. under publication. </span></div>
 
 <button class="myButton1"  onclick="toggleBibtexdahroug2019a()">Bibtex</button>
 
@@ -1040,7 +1121,7 @@
 </li>
 <li><!--
 <div class="text-justify">
-  <span id="dahroug2018b">[4]B. Dahroug <i>et al.</i>, “Some examples of path following in microrobotics ,” in <i>International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)</i>, Nagoya, Japan, 2018, vol. 8, pp. 1–6. </span>
+  <span id="dahroug2018b">[5]B. Dahroug <i>et al.</i>, “Some examples of path following in microrobotics ,” in <i>International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)</i>, Nagoya, Japan, 2018, vol. 8, pp. 1–6. </span>
 </div>
 
 
@@ -1075,7 +1156,7 @@
 
 
 
-<div class="text-justify"><span id="dahroug2018b">[4]B. Dahroug <i>et al.</i>, “Some examples of path following in microrobotics ,” in <i>International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)</i>, Nagoya, Japan, 2018, vol. 8, pp. 1–6. </span></div>
+<div class="text-justify"><span id="dahroug2018b">[5]B. Dahroug <i>et al.</i>, “Some examples of path following in microrobotics ,” in <i>International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)</i>, Nagoya, Japan, 2018, vol. 8, pp. 1–6. </span></div>
 
 <button class="myButton1"  onclick="toggleBibtexdahroug2018b()">Bibtex</button>
 
@@ -1136,7 +1217,7 @@
 </li>
 <li><!--
 <div class="text-justify">
-  <span id="rosa2018a">[5]B. Rosa <i>et al.</i>, “Online robust endomicroscopy video mosaicking using robot prior,” <i>IEEE Robotics and automation letters (RA-L)</i>, pp. 4163–4170, Aug. 2018. </span>
+  <span id="rosa2018a">[6]B. Rosa <i>et al.</i>, “Online robust endomicroscopy video mosaicking using robot prior,” <i>IEEE Robotics and automation letters (RA-L)</i>, pp. 4163–4170, Aug. 2018. </span>
 </div>
 
 
@@ -1170,7 +1251,7 @@
 
 
 
-<div class="text-justify"><span id="rosa2018a">[5]B. Rosa <i>et al.</i>, “Online robust endomicroscopy video mosaicking using robot prior,” <i>IEEE Robotics and automation letters (RA-L)</i>, pp. 4163–4170, Aug. 2018. </span></div>
+<div class="text-justify"><span id="rosa2018a">[6]B. Rosa <i>et al.</i>, “Online robust endomicroscopy video mosaicking using robot prior,” <i>IEEE Robotics and automation letters (RA-L)</i>, pp. 4163–4170, Aug. 2018. </span></div>
 
 <button class="myButton1"  onclick="toggleBibtexrosa2018a()">Bibtex</button>
 
@@ -1240,7 +1321,7 @@
 </li>
 <li><!--
 <div class="text-justify">
-  <span id="dahroug2018c">[6]B. Dahroug, B. Tamadazte, and N. Andreff, “Task Controller for Performing Remote Centre of Motion,” in <i>Informatics in Control, Automation and Robotics. Lecture Notes in Electrical Engineering (LNEE)</i>, vol. 430, Springer, 2018, pp. 117–132. </span>
+  <span id="dahroug2018c">[7]B. Dahroug, B. Tamadazte, and N. Andreff, “Task Controller for Performing Remote Centre of Motion,” in <i>Informatics in Control, Automation and Robotics. Lecture Notes in Electrical Engineering (LNEE)</i>, vol. 430, Springer, 2018, pp. 117–132. </span>
 </div>
 
 
@@ -1274,7 +1355,7 @@
 
 
 
-<div class="text-justify"><span id="dahroug2018c">[6]B. Dahroug, B. Tamadazte, and N. Andreff, “Task Controller for Performing Remote Centre of Motion,” in <i>Informatics in Control, Automation and Robotics. Lecture Notes in Electrical Engineering (LNEE)</i>, vol. 430, Springer, 2018, pp. 117–132. </span></div>
+<div class="text-justify"><span id="dahroug2018c">[7]B. Dahroug, B. Tamadazte, and N. Andreff, “Task Controller for Performing Remote Centre of Motion,” in <i>Informatics in Control, Automation and Robotics. Lecture Notes in Electrical Engineering (LNEE)</i>, vol. 430, Springer, 2018, pp. 117–132. </span></div>
 
 <button class="myButton1"  onclick="toggleBibtexdahroug2018c()">Bibtex</button>
 
@@ -1334,7 +1415,7 @@
 </li>
 <li><!--
 <div class="text-justify">
-  <span id="dahroug2017a">[7]B. Dahroug, B. Tamadazte, and N. Andreff, “Visual servoing controller for time-invariant 3D path following with remote centre of motion constraint,” in <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, Singapore, Singapore, 2017, pp. 3612–3618. </span>
+  <span id="dahroug2017a">[8]B. Dahroug, B. Tamadazte, and N. Andreff, “Visual servoing controller for time-invariant 3D path following with remote centre of motion constraint,” in <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, Singapore, Singapore, 2017, pp. 3612–3618. </span>
 </div>
 
 
@@ -1366,7 +1447,7 @@
 
 
 
-<div class="text-justify"><span id="dahroug2017a">[7]B. Dahroug, B. Tamadazte, and N. Andreff, “Visual servoing controller for time-invariant 3D path following with remote centre of motion constraint,” in <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, Singapore, Singapore, 2017, pp. 3612–3618. </span></div>
+<div class="text-justify"><span id="dahroug2017a">[8]B. Dahroug, B. Tamadazte, and N. Andreff, “Visual servoing controller for time-invariant 3D path following with remote centre of motion constraint,” in <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, Singapore, Singapore, 2017, pp. 3612–3618. </span></div>
 
 <button class="myButton1"  onclick="toggleBibtexdahroug2017a()">Bibtex</button>
 
