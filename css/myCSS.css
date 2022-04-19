@@ -2,13 +2,15 @@
 	Slider 
 --*/
 #slider {
-  background: url("../img/homePage/imHomePage.gif") no-repeat;
+  background: url("../img/homePage/imHomePage.gif") no-repeat center center;
   background-size: 100% 100%;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  padding-bottom: 250px;
+  padding-top: 250px;
+  /*background-position: 10% 0%;
   padding: 200px 280px;
+  padding-bottom: 300px;*/
   position: relative;
-  padding-bottom: 300px;
 }
 #slider:before {
   content: "";
@@ -198,12 +200,14 @@
 					projects
 -----------------------------------------------*/
 #projects-header {
-  background: url("../img/lesEcrains.jpg") no-repeat;
+  background: url("../img/lesEcrains.jpg") no-repeat center center;
   background-size: 100% 100%;
-  padding-top: 3vh;
-  padding-bottom: 40em;
-  position: relative;
   background-attachment: fixed;
+  /*padding-top: 3vh;
+  padding-bottom: 40em;*/
+  padding-bottom: 300px;
+  padding-top: 350px;
+  position: relative;
 }
 #projects-header:before {
   content: "";
@@ -220,17 +224,19 @@
 #projects-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left:18em;
+  padding-left:0em;
   text-align: center;
-  position: absolute;
-  top: 30em;
+  /*position: absolute;
+  top: 30em;*/
+  top: 250px;
+  position: relative;
 }
 #projects-header .block h1 {
   font-weight: 10;
   font-size: 45px;
   letter-spacing: 6px;
-  padding-bottom: 15px;
-  margin-top: 0;
+  padding-bottom: 0px;
+  margin-top: 0px;
   text-transform: capitalize;
   text-align: center;
 }
@@ -240,6 +246,7 @@
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+
 /*
 #projectRobot {
   background: url("../img/projects/robot.png");
@@ -378,11 +385,16 @@
 
 
 #postProject {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /*background-size: cover;
   background-size: 100% 100%;
   padding-top: 18%;
   padding-bottom: 10%;
+  background-attachment: scroll;*/
   position: relative;
-  background-attachment: fixed;
 }
 #postProject:before {
   content: "";
@@ -407,17 +419,19 @@
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 6px;
-  padding-bottom: 15px;
-  margin-top: 0;
+  padding-bottom: 0px;
+  margin-top: 150px;
   text-transform: capitalize;
+  text-align: center;
 }
 #postProject .block h2 {
   font-weight: 100;
   font-size: 30px;
   letter-spacing: 6px;
-  padding-bottom: 15px;
-  margin-top: 0;
+  padding-bottom: 0px;
+  margin-top: 50px;
   text-transform: italic;
+  text-align: center;
 }
 
 #projectTemp {
