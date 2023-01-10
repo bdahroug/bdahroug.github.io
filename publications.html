@@ -20,7 +20,7 @@
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/publications.html">
+  <link rel="canonical" href="http://bdahroug.github.io/publications.html">
   <link rel="alternate" type="application/rss+xml" title="Bassem DAHROUG" href="/feed.xml">
 
   <!-- CSS -->
@@ -88,7 +88,7 @@
     </div>
 </section>
 -->
-<header class="masthead" style="background-image: url('/img/pub.jpg'); opacity: 1; color: black; background-size: 100% 100%;">  
+<header class="masthead" style="background-image: url('/img/pub.jpg'); opacity: 1; color: black; background-size: 62% 100%;">  
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -113,6 +113,80 @@ layout: default
 -->
 
 <script>
+    function toggleBibtexdahroug2023(parameter) {
+        var x= document.getElementById('adahroug2023');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+
+
+
+<div class="text-justify"><span id="dahroug2023">[1]B. Dahroug, B. Tamadazte, and N. Andreff, “Safe Path following for Middle Ear Surgery,” 2023. </span></div>
+
+<!--
+<button class="myButton1"  onclick="toggleBibtexdahroug2023()">Bibtex</button>
+-->
+<input class="myButton1" type="button" value="Bibtex" onclick="toggleBibtexdahroug2023()"/>
+
+
+
+    <a href="http://doi.org/10.48550/arXiv.2301.01237" target="_blank">
+        <input class="myButton2" type="button" value="DOI" />
+    </a>
+
+
+
+    <a href="https://www.researchgate.net/publication/366846208_Safe_Path_following_for_Middle_Ear_Surgery" target="_blank">
+        <input class="myButton" type="button" value="preprint" />
+    </a>
+
+ 
+
+ 
+
+ 
+
+    <!--
+    <a href="media/video2023.mp4" target="_blank">
+        <input class="button3" type="button" value="video" />
+        <video width="500" height="375" controls loop>
+            <source src="/media/video2023.mp4" type="video/mp4">
+        </video>
+    </a>
+    -->
+    <!--
+    <button class="myButton4" onclick="window.open('/media/video2023.mp4')">video</button>
+    -->
+    <input class="myButton4" type="button" value="video" onclick="window.open('/media/video2023.mp4')"/>
+
+
+
+<div id="adahroug2023" style="display: none;">
+  <pre>@article{dahroug2023,
+  title = {Safe Path following for Middle Ear Surgery},
+  author = {Dahroug, Bassem and Tamadazte, Brahim and Andreff, Nicolas},
+  year = {2023},
+  doi = {10.48550/arXiv.2301.01237},
+  group = {journal},
+  preprint = {https://www.researchgate.net/publication/366846208_Safe_Path_following_for_Middle_Ear_Surgery},
+  video = {media/video2023.mp4}
+}
+</pre>
+</div>
+
+
+</li>
+<li><!--
+---
+layout: default
+---
+-->
+
+<script>
     function toggleBibtexdahroug2020a(parameter) {
         var x= document.getElementById('adahroug2020a');
         if (x.style.display === 'none') {
@@ -125,7 +199,7 @@ layout: default
 
 
 
-<div class="text-justify"><span id="dahroug2020a">[1]B. Dahroug, B. Tamadazte, and N. Andreff, “PCA-based Visual Servoing using Optical Coherence Tomography,” <i>IEEE Robotics and automation letters (RA-L)</i>, vol. 5, pp. 3430–3437, 2020. </span></div>
+<div class="text-justify"><span id="dahroug2020a">[2]B. Dahroug, B. Tamadazte, and N. Andreff, “PCA-based Visual Servoing using Optical Coherence Tomography,” <i>IEEE Robotics and automation letters (RA-L)</i>, vol. 5, pp. 3430–3437, 2020. </span></div>
 
 <!--
 <button class="myButton1"  onclick="toggleBibtexdahroug2020a()">Bibtex</button>
@@ -202,7 +276,7 @@ layout: default
 
 
 
-<div class="text-justify"><span id="dahroug2018a">[2]B. Dahroug, B. Tamadazte, S. Weber, L. Tavernier, and N. Andreff, “Review on otological robotic systems: toward microrobot-assisted cholesteatoma surgery,” <i>IEEE Reviews in Biomedical Engineering (RBME)</i>, vol. 11, pp. 125–142, 2018. </span></div>
+<div class="text-justify"><span id="dahroug2018a">[3]B. Dahroug, B. Tamadazte, S. Weber, L. Tavernier, and N. Andreff, “Review on otological robotic systems: toward microrobot-assisted cholesteatoma surgery,” <i>IEEE Reviews in Biomedical Engineering (RBME)</i>, vol. 11, pp. 125–142, 2018. </span></div>
 
 <!--
 <button class="myButton1"  onclick="toggleBibtexdahroug2018a()">Bibtex</button>
@@ -270,7 +344,7 @@ layout: default
 
 
 
-<div class="text-justify"><span id="rosa2018a">[3]B. Rosa <i>et al.</i>, “Online robust endomicroscopy video mosaicking using robot prior,” <i>IEEE Robotics and automation letters (RA-L)</i>, pp. 4163–4170, Aug. 2018. </span></div>
+<div class="text-justify"><span id="rosa2018a">[4]B. Rosa <i>et al.</i>, “Online robust endomicroscopy video mosaicking using robot prior,” <i>IEEE Robotics and automation letters (RA-L)</i>, pp. 4163–4170, Aug. 2018. </span></div>
 
 <!--
 <button class="myButton1"  onclick="toggleBibtexrosa2018a()">Bibtex</button>
@@ -352,7 +426,7 @@ layout: default
 
 
 
-<div class="text-justify"><span id="guelpa2017a">[4]V. Guelpa, G. J. Laurent, B. Dahroug, and N. Le Fort-Piat, “Modular contact-free conveyors for handling planar fragile objects,” <i>IEEE Transactions on Robotics (T-RO)</i>, vol. 33, no. 1, pp. 92–101, 2016. </span></div>
+<div class="text-justify"><span id="guelpa2017a">[5]V. Guelpa, G. J. Laurent, B. Dahroug, and N. Le Fort-Piat, “Modular contact-free conveyors for handling planar fragile objects,” <i>IEEE Transactions on Robotics (T-RO)</i>, vol. 33, no. 1, pp. 92–101, 2016. </span></div>
 
 <!--
 <button class="myButton1"  onclick="toggleBibtexguelpa2017a()">Bibtex</button>
@@ -421,7 +495,7 @@ layout: default
 
 
 
-<div class="text-justify"><span id="dahroug2019a">[5]B. Dahroug, B. Tamadazte, and N. Andreff, “Unilaterally Constrained Motion of A Curved Surgical Tool,” <i>Robotica</i>, vol. under publication, pp. 1–23. </span></div>
+<div class="text-justify"><span id="dahroug2019a">[6]B. Dahroug, B. Tamadazte, and N. Andreff, “Unilaterally Constrained Motion of A Curved Surgical Tool,” <i>Robotica</i>, vol. under publication, pp. 1–23. </span></div>
 
 <!--
 <button class="myButton1"  onclick="toggleBibtexdahroug2019a()">Bibtex</button>
@@ -819,12 +893,6 @@ layout: default
 
 
 
-<section id="projectTemp">
-    <div class="container">
-        <div class="row">
-        </div>
-    </div>
-</section>
 
     <!-- Footer -->
 
@@ -844,7 +912,7 @@ layout: default
           
         </ul>
         -->
-        <p class="copyright text-muted">Copyright &copy; DAHROUG 2022</p>
+        <p class="copyright text-muted">Copyright &copy; DAHROUG 2023</p>
       </div>
     </div>
   </div>
