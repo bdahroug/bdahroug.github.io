@@ -194,6 +194,32 @@
 }
 
 
+/* Justifies text content */
+.justified-text {
+    text-align: justify;
+}
+
+/* Removes bottom margin (used with <p>) */
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+/* Removes top margin (used with <ul>) */
+.no-margin-top {
+    margin-top: 0;
+}
+
+/* Custom styling for the unordered list */
+.custom-list {
+    list-style-type: circle;
+    /*padding-left: 20px;*/
+}
+
+/* Resets default margin/padding on list items */
+.custom-list li {
+    margin: 0;
+    padding: 0;
+}
 
 
 /*---------------------------------------------

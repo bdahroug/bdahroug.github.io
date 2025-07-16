@@ -113,12 +113,14 @@
             <div class="col-md-7 col-sm-12">
                 <div class="block">
                     <div class="section-title">
-                        <p>This project proposes a novel approach to cholesteatoma surgery. 
+                        <p style="text-align: justify;">
+                            This project proposes a novel approach to cholesteatoma surgery. 
                             It investigated a mechatronics solution to satisfy the clinical needs for eliminating the residual and recurrent cholesteatoma (lesion cells that attack the middle ear). 
-                            It combining robotics, automatic control and mechatronics design to reach the tiny space of the middle ear cavity and perform a complex surgical task.</p>
+                            It combining robotics, automatic control and mechatronics design to reach the tiny space of the middle ear cavity and perform a complex surgical task.
+                        </p>
                     </div>
   
-                    <p>
+                    <p style="text-align: justify;">
                         I participated in this project as a research assistant (PhD student).
                         This thesis was financed by a ministerial scholarship, based on a Franco-Swiss collaboration, which was obtained following a competitive call for projects within the UBFC. 
                         This collaboration between CHU Besançon, ARTORG center (Swiss collaborator) and FEMTO-ST had the objective to develop a micro-robotic system dedicated to cholesteatoma surgery. 
@@ -138,28 +140,31 @@
     
             <div class="col-md-12">
                 <div class="block">
-                    <p>
+                    <p style="margin-bottom: 0; text-align: justify;">
                         The thesis work is mainly divided into two parts:
-                        <ul style="list-style-type:circle;">
-                            <li>The first part is devoted to the analysis of the clinical need for such a surgical intervention by defining the necessary specifications for the implementation of an efficient and safe micro-robotic system that contributes to better cholesteatoma surgery   <a class="citation" href="#projectURMES-dahroug2018a">[1]</a>.</li>
-                            <li>The second part concerns the development of an image-guided micro-robotic system <a class="citation" href="#projectURMES-dahroug2018_pdhThesis">[2]</a>. The main contributions of this part are :
-                                <ul style="list-style-type:disc;">
-                                    <li>modeling the movement of a rigid surgical tool (straight <a class="citation" href="#projectURMES-dahroug2016a">[3]</a> or curved <a class="citation" href="#projectURMES-dahroug2019a">[4]</a>) according to the anatomical context of the middle ear;</li>
-                                    <li>synthesis of the control laws so that the robot can follow a resection/ablation path <a class="citation" href="#projectURMES-dahroug2018b">[5], [6]</a> predefined by the surgeon while respecting the given anatomical constraints <a class="citation" href="#projectURMES-dahroug2018c">[7], [8]</a> (insertion point, presence of anatomical structure to be avoided, etc.);</li>
-                                    <li>implementation of a simulator to ensure the correct operation of the proposed controllers (see Fig. 1) ;
-                                        <ul style="list-style-type:square;">
-                                            <li>the controller is a C++ software (server) which communicates with a client (either simulator or real robot) using the TCP/IP protocol;</li>
-                                        </ul>
-                                    </li>
-                                    <li>realization of an experimental platform using a parallel robot available at FEMTO-ST to test the proposed controllers;</li>
-                                    <li>experimental tests to evaluate controllers in a clinical environment with a serial robot at ARTORG center;</li>
-                                    <li>design of a flexible and actuated micro-tool <a class="citation" href="#projectURMES-dahroug2018a">[1]</a> to scan the suspect area (Fig. 2);</li>
-                                    <li>scientific communications (written and oral) in international journals and conferences.</li>
-                                </ul>
-                            </li>
-                        </ul>
                     </p>
-                    <p>The promising results obtained during this thesis were used to set up the ANR PRC project μRoCS (Micro-Robotic Cholesteatoma Surgery) [2018 - 2021] to further develop the robotic system.</p>
+                    <ul style="list-style-type:circle; text-align: justify;">
+                        <li style="margin: 0; padding: 0;">The first part is devoted to the analysis of the clinical need for such a surgical intervention by defining the necessary specifications for the implementation of an efficient and safe micro-robotic system that contributes to better cholesteatoma surgery   <a class="citation" href="#projectURMES-dahroug2018a">[1]</a>.</li>
+                        <li style="margin: 0; padding: 0;">The second part concerns the development of an image-guided micro-robotic system <a class="citation" href="#projectURMES-dahroug2018_pdhThesis">[2]</a>. The main contributions of this part are :
+                            <ul style="list-style-type:disc; text-align: justify;">
+                                <li style="margin: 0; padding: 0;">modeling the movement of a rigid surgical tool (straight <a class="citation" href="#projectURMES-dahroug2016a">[3]</a> or curved <a class="citation" href="#projectURMES-dahroug2019a">[4]</a>) according to the anatomical context of the middle ear;</li>
+                                <li style="margin: 0; padding: 0;">synthesis of the control laws so that the robot can follow a resection/ablation path <a class="citation" href="#projectURMES-dahroug2018b">[5], [6]</a> predefined by the surgeon while respecting the given anatomical constraints <a class="citation" href="#projectURMES-dahroug2023">[7], [8], [9]</a> (insertion point, presence of anatomical structure to be avoided, etc.);</li>
+                                <li style="margin: 0; padding: 0;">implementation of a simulator to ensure the correct operation of the proposed controllers (see Fig. 1) ;
+                                    <ul style="list-style-type:square; text-align: justify;">
+                                        <li style="margin: 0; padding: 0;">the controller is a C++ software (server) which communicates with a client (either simulator or real robot) using the TCP/IP protocol;</li>
+                                    </ul>
+                                </li>
+                                <li style="margin: 0; padding: 0;">realization of an experimental platform using a parallel robot available at FEMTO-ST to test the proposed controllers;</li>
+                                <li style="margin: 0; padding: 0;">experimental tests to evaluate controllers in a clinical environment with a serial robot at ARTORG center;</li>
+                                <li style="margin: 0; padding: 0;">design of a flexible and actuated micro-tool <a class="citation" href="#projectURMES-dahroug2018a">[1]</a> to scan the suspect area (Fig. 2);</li>
+                                <li style="margin: 0; padding: 0;">scientific communications (written and oral) in international journals and conferences.</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <p style="text-align: justify;">
+                        The promising results obtained during this thesis were used to set up the ANR PRC project μRoCS (Micro-Robotic Cholesteatoma Surgery) [2018 - 2021] to further develop the robotic system.
+                    </p>
                 </div>
             </div>
             <br>
@@ -622,6 +627,84 @@ layout: default
 -->
 
 <script>
+    function toggleBibtexdahroug2023(parameter) {
+        var x= document.getElementById('adahroug2023');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+
+
+
+<div class="text-justify"><span id="projectURMES-dahroug2023">[7]B. Dahroug, B. Tamadazte, P. Rougeot, and N. Andreff, “Robotic Guidance of a Surgical Tool Under Constrained Motions,” <i>IEEE Transactions on Medical Robotics and Bionics</i>, vol. 5, no. 3, pp. 645–656, 2023. </span></div>
+
+<!--
+<button class="myButton1"  onclick="toggleBibtexdahroug2023()">Bibtex</button>
+-->
+<input class="myButton1" type="button" value="Bibtex" onclick="toggleBibtexdahroug2023()"/>
+
+
+
+    <a href="http://doi.org/10.1109/TMRB.2023.3294526" target="_blank">
+        <input class="myButton2" type="button" value="DOI" />
+    </a>
+
+
+
+    <a href="https://hal.science/hal-04184096v1/file/finale_version.pdf" target="_blank">
+        <input class="myButton" type="button" value="preprint" />
+    </a>
+
+ 
+
+ 
+
+ 
+
+    <!--
+    <a href="media/videoTMRB2023.mp4" target="_blank">
+        <input class="button3" type="button" value="video" />
+        <video width="500" height="375" controls loop>
+            <source src="/media/videoTMRB2023.mp4" type="video/mp4">
+        </video>
+    </a>
+    -->
+    <!--
+    <button class="myButton4" onclick="window.open('/media/videoTMRB2023.mp4')">video</button>
+    -->
+    <input class="myButton4" type="button" value="video" onclick="window.open('/media/videoTMRB2023.mp4')"/>
+
+
+
+<div id="adahroug2023" style="display: none;">
+  <pre>@article{dahroug2023,
+  title = {Robotic Guidance of a Surgical Tool Under Constrained Motions},
+  author = {Dahroug, Bassem and Tamadazte, Brahim and Rougeot, Patrick and Andreff, Nicolas},
+  journal = {IEEE Transactions on Medical Robotics and Bionics},
+  volume = {5},
+  number = {3},
+  pages = {645--656},
+  year = {2023},
+  doi = {10.1109/TMRB.2023.3294526},
+  group = {journal},
+  preprint = {https://hal.science/hal-04184096v1/file/finale_version.pdf},
+  video = {media/videoTMRB2023.mp4}
+}
+</pre>
+</div>
+
+
+</li>
+<li><!--
+---
+layout: default
+---
+-->
+
+<script>
     function toggleBibtexdahroug2018c(parameter) {
         var x= document.getElementById('adahroug2018c');
         if (x.style.display === 'none') {
@@ -634,7 +717,7 @@ layout: default
 
 
 
-<div class="text-justify"><span id="projectURMES-dahroug2018c">[7]B. Dahroug, B. Tamadazte, and N. Andreff, “Task Controller for Performing Remote Centre of Motion,” in <i>Informatics in Control, Automation and Robotics. Lecture Notes in Electrical Engineering (LNEE)</i>, vol. 430, Springer, 2018, pp. 117–132. </span></div>
+<div class="text-justify"><span id="projectURMES-dahroug2018c">[8]B. Dahroug, B. Tamadazte, and N. Andreff, “Task Controller for Performing Remote Centre of Motion,” in <i>Informatics in Control, Automation and Robotics. Lecture Notes in Electrical Engineering (LNEE)</i>, vol. 430, Springer, 2018, pp. 117–132. </span></div>
 
 <!--
 <button class="myButton1"  onclick="toggleBibtexdahroug2018c()">Bibtex</button>
@@ -703,7 +786,7 @@ layout: default
 
 
 
-<div class="text-justify"><span id="projectURMES-dahroug2017a">[8]B. Dahroug, B. Tamadazte, and N. Andreff, “Visual servoing controller for time-invariant 3D path following with remote centre of motion constraint,” in <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, Singapore, Singapore, 2017, pp. 3612–3618. </span></div>
+<div class="text-justify"><span id="projectURMES-dahroug2017a">[9]B. Dahroug, B. Tamadazte, and N. Andreff, “Visual servoing controller for time-invariant 3D path following with remote centre of motion constraint,” in <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, Singapore, Singapore, 2017, pp. 3612–3618. </span></div>
 
 <!--
 <button class="myButton1"  onclick="toggleBibtexdahroug2017a()">Bibtex</button>
@@ -728,6 +811,19 @@ layout: default
 
  
 
+    <!--
+    <a href="media/videoICRA2017.webm" target="_blank">
+        <input class="button3" type="button" value="video" />
+        <video width="500" height="375" controls loop>
+            <source src="/media/videoICRA2017.webm" type="video/mp4">
+        </video>
+    </a>
+    -->
+    <!--
+    <button class="myButton4" onclick="window.open('/media/videoICRA2017.webm')">video</button>
+    -->
+    <input class="myButton4" type="button" value="video" onclick="window.open('/media/videoICRA2017.webm')"/>
+
 
 
 <div id="adahroug2017a" style="display: none;">
@@ -740,7 +836,8 @@ layout: default
   pages = {3612--3618},
   doi = {10.1109/ICRA.2017.7989416},
   group = {conference},
-  preprint = {https://www.researchgate.net/publication/314632775_Visual_Servoing_Controller_for_Time-Invariant_3D_Path_Following_with_Remote_Centre_of_Motion_Constraint}
+  preprint = {https://www.researchgate.net/publication/314632775_Visual_Servoing_Controller_for_Time-Invariant_3D_Path_Following_with_Remote_Centre_of_Motion_Constraint},
+  video = {media/videoICRA2017.webm}
 }
 </pre>
 </div>
@@ -864,7 +961,7 @@ layout: default
           
         </ul>
         -->
-        <p class="copyright text-muted">Copyright &copy; DAHROUG 2024</p>
+        <p class="copyright text-muted">Copyright &copy; DAHROUG 2025</p>
       </div>
     </div>
   </div>
